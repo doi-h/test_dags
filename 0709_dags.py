@@ -32,7 +32,7 @@ default_args = {
     # 'trigger_rule': 'all_success'
 }
 with DAG(
-    '0708_dags',
+    '0709_dags',
     default_args=default_args,
     description='A simple tutorial DAG',
     schedule_interval=timedelta(days=1),
